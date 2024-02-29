@@ -1,0 +1,40 @@
+a:visited {
+  /* seleziona tutti i link che sono già stati cliccati (che normalmente diventano di colore viola) */
+  color: black;
+}
+
+a {
+  /* rimuove le sottolineature nei link */
+  text-decoration: none;
+}
+
+#left-icon {
+  /* regole per l'icona di HTML5 */
+  color: orange;
+}
+
+#right-icon {
+  /* regole per l'icona di CSS3 */
+  color: darkgreen;
+}
+
+header {
+  text-align: center;
+}
+
+header nav ul {
+  /* prendo la ul che si trova dentro nav che si trova dentro header */
+  padding: 0; /* elimina il rientro della lista verso destra */
+  list-style: none; /* toglie gli indicatori dalla lista */
+}
+
+header nav ul li {
+  /* prendo tutti i list-item dentro la ul che si trova dentro la nav che si trova dentro header */
+  display: inline; /* gli elementi ora occuperanno solamente lo spazio a loro strettamente necessario */
+}
+
+nav i {
+  /* tutte le icone dentro il tag nav */
+  margin-right: 0.25em; /* spazio l'icona dalla parola del link */
+  margin-left: 0.75em; /* spazio l'icona dal link che la precede */
+}
